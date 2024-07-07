@@ -1,0 +1,38 @@
+{
+	"name": "abt-api",
+	"version": "1.0.0",
+	"description": "This project implements a basic Node.js API for managing ABT metadata with MongoDB. It provides functionality to create, retrieve, update and delete ABT metadata through RESTful endpoints.",
+	"main": "app.js",
+	"scripts": {
+		"test": "node test/auth.js && node test/upload.js",
+		"test:login": "node test/auth.js",
+		"test:upload": "node test/upload.js",
+		"test:token": "node test/token.js",
+		"test:marketplace": "node test/marketplace.js",
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"postinstall": "node scripts/install-poppler.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.6.8",
+		"canvas": "^2.11.2",
+		"cors": "^2.8.5",
+		"csv-writer": "^1.6.0",
+		"dotenv": "^16.4.5",
+		"ethers": "^6.12.2",
+		"express": "^4.19.2",
+		"jsonwebtoken": "^9.0.2",
+		"md5": "^2.3.0",
+		"mongoose": "^8.3.4",
+		"multer": "^1.4.5-lts.1",
+		"node-poppler": "^7.2.0",
+		"pdf-lib": "^1.17.1",
+		"pdf-parse": "^1.1.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
