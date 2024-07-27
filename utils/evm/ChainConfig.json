@@ -1,50 +1,4 @@
 {
-	"mainnet": {
-		"id": 1,
-		"name": "Ethereum",
-		"network": "homestead",
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		},
-		"ens": {
-			"address": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
-		},
-		"multicall": {
-			"address": "0xca11bde05977b3631167028862be2a173976ca11",
-			"blockCreated": 14353601
-		},
-		"rpc": "https://cloudflare-eth.com",
-		"wss": "wss://ethereum-rpc.publicnode.com",
-		"explorer": {
-			"name": "Etherscan",
-			"url": "https://etherscan.io",
-			"api": "https://api.etherscan.io/api"
-		}
-	},
-	"sepolia": {
-		"id": 11155111,
-		"name": "Sepolia",
-		"network": "sepolia",
-		"nativeCurrency": {
-			"name": "Sepolia Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		},
-		"multicall": {
-			"address": "0xca11bde05977b3631167028862be2a173976ca11",
-			"blockCreated": 751532
-		},
-		"testnet": true,
-		"rpc": "https://ethereum-sepolia-rpc.publicnode.com",
-		"wss": "wss://ethereum-sepolia-rpc.publicnode.com",
-		"explorer": {
-			"name": "Etherscan",
-			"url": "https://sepolia.etherscan.io",
-			"api": "https://api-sepolia.etherscan.io/api"
-		}
-	},
 	"polygon": {
 		"id": 137,
 		"name": "Polygon",
@@ -64,59 +18,6 @@
 			"name": "PolygonScan",
 			"url": "https://polygonscan.com",
 			"api": "https://api.polygonscan.com/api"
-		}
-	},
-	"polygonZkevm": {
-		"id": 1101,
-		"name": "Polygon zkEVM",
-		"network": "matic",
-		"nativeCurrency": {
-			"name": "ETH",
-			"symbol": "ETH",
-			"decimals": 18
-		},
-		"rpc": "https://zkevm-rpc.com/",
-		"wss": "wss://polygon-zkevm.drpc.org",
-		"explorer": {
-			"name": "PolygonScan",
-			"url": "https://zkevm.polygonscan.com/",
-			"api": "https://api-zkevm.polygonscan.com/api"
-		}
-	},
-	"polygonAmoy": {
-		"id": 80002,
-		"name": "Polygon Amoy",
-		"network": "amoy",
-		"nativeCurrency": {
-			"name": "Amoy MATIC",
-			"symbol": "MATIC",
-			"decimals": 18
-		},
-		"testnet": true,
-		"rpc": "https://rpc-amoy.polygon.technology/",
-		"wss": "wss://polygon-amoy-bor-rpc.publicnode.com",
-		"explorer": {
-			"name": "PolygonScan",
-			"url": "https://amoy.polygonscan.com/",
-			"api": "https://api-amoy.polygonscan.com/api"
-		}
-	},
-	"polygonZkEVMTestnet": {
-		"id": 2442,
-		"name": "Cardona zkEVM Testnet",
-		"network": "cardona",
-		"nativeCurrency": {
-			"name": "ETH",
-			"symbol": "ETH",
-			"decimals": 18
-		},
-		"testnet": true,
-		"rpc": "https://rpc.cardona.zkevm-rpc.com/",
-		"wss": "wss://rpc.cardona.zkevm-rpc.com/",
-		"explorer": {
-			"name": "PolygonScan",
-			"url": "https://cardona-zkevm.polygonscan.com/",
-			"api": "https://api-cardona-zkevm.polygonscan.com/api"
 		}
 	},
 	"localhost": {
